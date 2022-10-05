@@ -12,12 +12,16 @@ router.post('/', (req, res)=>{
 res.send('yo')
 })
 
+router.get('/process_exit', (req, res)=>{
+     process.exit()
+
+})
+
 router.get('/', (req, res)=>{
     console.log('asdfasdfasf')
     console.log(Date.now())
     console.log(req.query)
     console.log(req.headers)
-     process.exit()
     return res.json({yo:'yo'})
 })
 
