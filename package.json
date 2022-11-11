@@ -39,10 +39,6 @@
     "uuid": "^8.3.2",
         "express-session": "^1.17.3",
     "fs": "^0.0.1-security",
-    "grunt": "^1.4.1",
-    "grunt-contrib-jshint": "^3.0.0",
-    "grunt-contrib-nodeunit": "^3.0.0",
-    "grunt-contrib-uglify": "^5.0.1",
     "http-errors": "~1.6.3",
     "jade": "^0.29.0",
     "jsonwebtoken": "^8.5.1",
@@ -51,6 +47,9 @@
     "nodemon": "^2.0.12"
   },
   "devDependencies": {
-
+    "grunt": "^1.4.1",
+    "grunt-contrib-jshint": "^3.0.0",
+    "grunt-contrib-nodeunit": "^3.0.0",
+    "grunt-contrib-uglify": "^5.0.1"
   }
 }
