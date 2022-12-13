@@ -17,12 +17,16 @@ router.get('/process_exit', (req, res)=>{
 
 })
 
-router.get('/', (req, res)=>{
+router.get('*', (req, res)=>{
+   console.log(req.url)
     console.log('asdfasdfasf')
     console.log(Date.now())
     console.log(req.query)
     console.log(req.headers)
-    return res.json({yo:'yo'})
+    return res.json({
+       yo:'yo',
+       url: req.url
+    })
 })
 
 app.listen(3000)
