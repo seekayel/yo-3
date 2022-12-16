@@ -6,8 +6,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "node .",
-    "dev": "nodemon ./bin/www",
+    "start": "node ."
   },
   "dependencies": {
     "cors": "^2.8.5",
