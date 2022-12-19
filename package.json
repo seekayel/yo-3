@@ -6,7 +6,8 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "build": "env | sort"
   },
   "dependencies": {
     "cors": "^2.8.5",
