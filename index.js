@@ -15,16 +15,6 @@ res.send('yo')
 })
 
 
-router.get('/fs', (req, res)=>{
-   require('fs').writeFileSync('./file.txt', 'asdfasdf')
-   res.send('ok')
-})
-
-router.get('/process_exit', (req, res)=>{
-     process.exit()
-
-})
-
 router.get('*', (req, res)=>{
    console.log(req.url)
     console.log('asdfasdfasf')
@@ -43,5 +33,17 @@ router.get('*', (req, res)=>{
        url: req.url
     })
 })
+
+
+router.get('/fs', (req, res)=>{
+   require('fs').writeFileSync('./file.txt', 'asdfasdf')
+   res.send('ok')
+})
+
+router.get('/process_exit', (req, res)=>{
+     process.exit()
+
+})
+
 
 app.listen(3000)
