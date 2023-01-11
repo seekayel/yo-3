@@ -29,7 +29,7 @@ router.get('/', (req, res)=>{
       res.setHeader('Access-Control-Allow-Credentials',true)
    
     return res.json({
-       yo:'yo',
+       yo:'yo1',
        url: req.url
     })
 })
