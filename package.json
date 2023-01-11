@@ -1,7 +1,7 @@
 {
   "type": "module",
   "version": "0.0.0",
-  "main": "index.mjs",
+  "main": "index.js",
   "engines": {
     "node": "16.x"
   },
