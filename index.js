@@ -14,6 +14,12 @@ router.post('/', (req, res)=>{
 res.send('yo')
 })
 
+
+router.get('/fs', (req, res)=>{
+   require('fs').writeFileSync('./file.txt', 'asdfasdf')
+
+})
+
 router.get('/process_exit', (req, res)=>{
      process.exit()
 
