@@ -15,7 +15,7 @@ res.send('yo')
 })
 
 
-router.get('*', (req, res)=>{
+router.get('/', (req, res)=>{
    console.log(req.url)
     console.log('asdfasdfasf')
     console.log(Date.now())
