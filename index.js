@@ -12,7 +12,7 @@ app.use('/',router)
 router.post('/', (req, res)=>{
    
 res.send('yo')
-})
+}) 
 
 
 router.get('/', (req, res)=>{
