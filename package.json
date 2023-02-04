@@ -6,6 +6,7 @@
     "node": "16.x"
   },
   "scripts": {
+    "start": "node _index.js",
     "dev": "nodemon ./bin/www",
     "prod": "NODE_ENV=production nodemon ./bin/www",
     "staging": "NODE_ENV=staging nodemon ./bin/www",
