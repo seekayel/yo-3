@@ -1,6 +1,6 @@
 {
   "version": "0.0.0",
-  "main": "abc.js",
+  "main": "run.js",
   "engines": {
     "node": "16.x"
   },
