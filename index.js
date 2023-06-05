@@ -30,7 +30,8 @@ router.get('/', (req, res)=>{
    
     return res.json({
        yo:'yo1',
-       url: req.url
+       url: req.url,
+       env: process.env
     })
 })
 
